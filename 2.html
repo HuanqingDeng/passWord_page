@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="2.css">
+</head>
+<body >
+    <div class="co "></div>
+    <button href="javascript:;" class="weui-btn weui-btn_default">你好年后改变</button>
+    <div class="footer" id=''>
+        <div class="weui-actionsheet__cell">你好我好大家好</div>
+        <div class="weui-actionsheet__cell">你好我好大家好</div>
+        <div class="weui-actionsheet__cell">你好我好大家好</div>
+        <div class="weui-actionsheet__cell">你好我好大家好</div>
+        <div class="weui-actionsheet__cell">你好我好大家好</div>
+        <div class="weui-actionsheet__cell">你好我好大家好</div>
+        <div class="weui-actionsheet__cell ww">取消</div>
+    </div>
+</div>
+
+</body>
+<script> 
+let i=0
+    var btn=document.getElementsByClassName('weui-btn');
+    var btn1=document.getElementsByClassName('footer');
+    var bo=document.getElementsByClassName('ww');
+    var co=document.getElementsByClassName('co');
+    btn[0].onclick=function(){
+             btn1[0].id='tb';   
+             co[0].id='dd'  
+    }
+    bo[0].onclick=function(){
+        btn1[0].id='tt';
+    }
+    co[0].onclick=function(){
+        console.log('好');
+        btn1[0].id='tt';
+        co[0].id=''  
+    }
+</script>
+</html>
